@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+input[type='radio'] {
+    transform: scale(2);
+}
+
+.svg{
+    display: block;
+    max-width: 100%;
+    transform: rotate(-90deg);
+}
+  
+.svg-circle-bg {
+    fill: none;
+}
+  
+.svg-circle {
+    fill: none;
+}
+
+.svg-circle-text {
+    font-size: 2rem;
+    text-anchor: middle;
+    fill: rgb(154, 17, 17);
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
